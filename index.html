@@ -13,7 +13,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="col-md-6">
+    <div class="col-sm-6">
     <a class="navbar-brand">Athena Olson</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>   
@@ -35,16 +35,21 @@
     </div>
   </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <div class="col-md-12">
+<!-- change the size of the main-container. css and change size, or use bootstrap and change the size by using col and rows. add a row that's going to nest everything inside of. i have to have rows. use more than 1 col size. small med large exlarge.  -->
+
+  <div id="main-container" class="container col-sm-12">
+        <section class="main-section">
+            <div class="row">
+      <div class="col-sm-12">
       <h1>About Me</h1>
     </div> 
+  </div>
+
 
     <div class="col-md-3">
       <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-10">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
       <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
@@ -54,6 +59,7 @@
     </section>
     </div>
   </div>
+</div>
   <footer class="footer">
       <div class="container">
         <div class="col-md-12">
