@@ -1,2 +1,8 @@
 # Bootstrap-Portfolio
-Recreate Basic-Portfolio due 8-16-18
+
+~Mobile Responsive
+
+~Links to email, github, linkedin
+
+~Some portfolio slots left open for future development projects
+
